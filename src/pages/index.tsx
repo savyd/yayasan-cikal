@@ -10,24 +10,13 @@ export default () => (
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
       <img
-        src="/vercel-and-notion.png"
-        height="85"
-        width="250"
+        src="/yayasan.jpg"
+        // height="85"
+        width="800"
         alt="Vercel + Notion"
       />
-      <h1>My Notion Blog</h1>
-      <h2>
-        Blazing Fast Notion Blog with Next.js'{' '}
-        <ExtLink
-          href="https://github.com/vercel/next.js/issues/9524"
-          className="dotted"
-          style={{ color: 'inherit' }}
-        >
-          SSG
-        </ExtLink>
-      </h2>
-
-      <Features />
+      <h1>Yayasan Cikal Cendikia</h1>
+      <h2>@cikalcendikiasalsabila · Nonprofit Organization</h2>
 
       <div className="explanation">
         <p>
